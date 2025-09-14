@@ -1,0 +1,36 @@
+.typewriter{
+  display:flex;
+  justify-content: center;
+  border: solid 1px black;
+  height: 100px;
+  align-items: center;
+  background-color: #4821e6;
+}
+.typewriter p{
+  color: rgb(2, 2, 2);
+font-family: monospace;
+font-size: 2rem;
+
+text-shadow: 3px 3px 4px white;
+overflow: hidden;
+white-space: nowrap;
+/* the cueser */
+border-right: 1px solid;
+animation: typing 3s steps(24) forwards;
+
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  
+  to{
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50%{
+    border-color: transparent;
+  }
+}
